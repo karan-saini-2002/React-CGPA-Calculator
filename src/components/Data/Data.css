@@ -1,0 +1,70 @@
+.main-form {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+form label {
+  font-weight: bold;
+}
+
+.option-button {
+  padding: 0% 0% 15px 0%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60%;
+}
+
+.small-button {
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: black;
+}
+.highlighted-button {
+  font-weight: bold;
+  border-color: white;
+}
+.button2 {
+  margin-left: 10%;
+}
+
+.custom-div {
+  min-width: 550px;
+  min-height: 500px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+}
+
+.result-box {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 15px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.responsive-button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .main-form {
+    max-width: max-content;
+  }
+  .responsive-button {
+    padding: 8px 8px;
+    font-size: 14px;
+  }
+}
